@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja_Incidencia </title>
+</head>
+<body>
+
+    <h2>Hoja de Incidencia</h2>
+ <br> <br>
+<form  inputmode="incidencia.html" method="get"></form>
+<br>
+ <fieldset>
+    <label for="usuario">Usuario</label>
+</fieldset>
+<br>
+<fieldset>
+    <label for="text">Nombre</label>
+</fieldset>
+
+<br>
+
+<fieldset>
+    <label for="tex">Apellidos</label>
+</fieldset> 
+
+<br> </b>
+
+<fielset>
+        <label for=>Alumno</label>
+        <input type="password" id="alumno" name="contraseña" maxlength="12" size="12" />
+</fielset>
+
+   <br>
+   
+<fieldset>
+    <label for=>Profesor</label>
+    <input type="password" id="profesor " maxlength="12" size="12" />
+</fieldset>
+
+
+
+
+
+</body>
+</html>
