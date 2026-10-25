@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Incidencia</title>
+</head>
+<body>
+
+<form action="validacion" method="get"></form>
+ <fieldset>
+    <legend>Datos del Usuario</legend>
+    <label for="usuario">Usuario</label>
+         <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos" maxlength="30" size="30" />
+         <br>
+    <input type="radio" name="user" id="alumno" value="alumno" checked="checked"/>
+    <label for="alumno">Alumno</label><br>
+    <input type="radio" name="user" id="profesor" value="profesor"/>
+    <label for="profesor">Profesor</label>
+ </fieldset>
+ <fieldset>
+    <legend>Donde se produce</legend>
+
+    <input type="radio" name="produccion" id="departamento" value="departamento" checked="checked"/>
+    <label for="departamento">Todo el departamento</label><br>
+ 
+   <input type="radio" name="produccion" id="aula" value="aula"/>
+   <label for="producion">Todo el aula</label><br>
+
+   <input type="radio" name="produccion" id="equipo" value="equipo"/>
+   <label for="produccion">Sólo un equipo</label><br>
+
+   <label for="produccion">Identifica el dpto, aula o equipo</label>
+      <input type="text" id="produccion" name="Identifica el dpto, aula o equipo"/>
+</fieldset>
+
+<fieldset>
+   <legend>Información sobre la incidencia</legend>
+
+<label>Descripción de la incidencia</label>
+
+<fieldset>
+   <textarea id="descripcion" name="descripcion" rows="6" cols="40" placeholder="Describe el problema con detalle"></textarea>  
+</fieldset>
+
+<fieldset>
+
+<label>Nivel de urgencia:</label><br>
+   <input type="radio" name="urgencia" id="Alto" value="Alto"/>
+   <label for="urgencia">Alto</label><br>
+
+   <input type="radio" name="urgencia" id="Medio" value="Medio" checked="checked"/>
+   <label for="urgencia">Medio</label><br>
+
+   <input type="radio" name="urgencia" id="Bajo" value="Bajo"/>
+   <label for="urgencia">Bajo</label><br>
+
+   
+   <label>Me gustaría ser avisado por email cuando se resuelva la incidencia</label>
+   <input type="checkbox" checked="checked"/>
+</fieldset>
+
+<input type="submit" value="Entrar"/>
+<input type="submit" value="Limpiar"/>
+
+</body>
+</html>
