@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body> 
+    
+    <form action="servicio.php" method="get">
+        <label>Vamos a probar diferentes valores de type de HTML5 para la etiqueta input</label>
+        <br><br>
+
+    <fieldset >
+
+        <legend>Para datos personales</legend>
+
+        <label for="formulario">Telefonos</label>
+        <input type="tel" id="formularios" name="telefonos" placeholder= "9 números" maxlength="9" autocomplete="on" ><br>
+        <label for="formulario">Correo electrónico</label>
+        <input type="email" id="formularios" name="correo electrónico" placeholder="El formato correcto es nombre+@+servidor de correo" maxlength="50" autocomplete="on">
+
+    </fieldset>
+
+
+    <fieldset>       
+    
+        <legend>Para valores numéricos</legend>
+        <label for="formulario">Número de personas</label>
+        <input type="number" id="formularios" name="número de personas" value="1" step="1" min="1" max="20"><br>
+        
+        <label for="formulario">Mueva la barra para indicar puntuacion (del 1 al 10)</label>
+        <input type="range" id="formularios"name="Mueve la barra" maxlength="20" step="1" min="1" max="10"></input>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Url y búsqueda</legend>
+        <label for="formulario">Url de tu sitio</label>
+        <input type="url" id="formularios" name="url de tu sitio" maxlength="10"><br>
+
+        <label for="formulario">¿Qué te interesa buscar?</label>
+        <input type="search" id="formularios" name="¿Que te interesa buscar?" maxlength="10"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Otros tipos</legend>
+        <label for="formularios">color</label>
+        <input type="color" id="formularios" name="color" maxlength="10" checked> <br>
+    </fieldset>
+   
+    <fieldset>
+        <legend>Para fechas</legend>
+        <label for="formularios">Selecciones un día(Hasta fin de año)</label>
+        <input type="date" id="formularios" name="selecione un día"><br>
+
+        <label>Selecione una hora</label>
+        <input type="time" id="formularios" name="selecione una hora"><br>
+
+        <label>Seleccione un mes(Hasta junio dle 2020):</label>
+        <input type="month" id="formularios" name="seleciones un mes"><br>
+
+        <label>Seleccione una semana(Has junio del 2020):</label>
+        <input type="week" id="formularios" name="selecione semana"><br>
+
+        <label>Seleccione fecha y hora:</label>
+        <input type="datetime" id="formularios" name="selecione fecha y hora">
+    </fieldset>
+    
+        <button type="submit"><img src="imagenes/checkear.png" width="50" height="50">Validar</button>
+        <button type="submit"><img src="imagenes/limpiar.png" width="50" height="50">Limpiar</button>
+   
+</form>
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
