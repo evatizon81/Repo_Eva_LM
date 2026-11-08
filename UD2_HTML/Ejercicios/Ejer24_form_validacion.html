@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form action="validacion" method="get"></form>
+<form action="validacion" method="get">
  <fieldset>
     <legend>Datos del Usuario</legend>
     <label for="usuario">Usuario</label>
@@ -25,10 +25,10 @@
     <label for="departamento">Todo el departamento</label><br>
  
    <input type="radio" name="produccion" id="aula" value="aula"/>
-   <label for="producion">Todo el aula</label><br>
+   <label for="aula">Todo el aula</label><br>
 
    <input type="radio" name="produccion" id="equipo" value="equipo"/>
-   <label for="produccion">Sólo un equipo</label><br>
+   <label for="equipo">Sólo un equipo</label><br>
 
    <label for="produccion">Identifica el dpto, aula o equipo</label>
       <input type="text" id="produccion" name="Identifica el dpto, aula o equipo"/>
@@ -47,21 +47,21 @@
 
 <label>Nivel de urgencia:</label><br>
    <input type="radio" name="urgencia" id="Alto" value="Alto"/>
-   <label for="urgencia">Alto</label><br>
+   <label for="Alto">Alto</label><br>
 
    <input type="radio" name="urgencia" id="Medio" value="Medio" checked="checked"/>
-   <label for="urgencia">Medio</label><br>
+   <label for="Medio">Medio</label><br>
 
    <input type="radio" name="urgencia" id="Bajo" value="Bajo"/>
-   <label for="urgencia">Bajo</label><br>
+   <label for="Bajo">Bajo</label><br>
 
    
-   <label>Me gustaría ser avisado por email cuando se resuelva la incidencia</label>
-   <input type="checkbox" checked="checked"/>
+   <label for="email">Me gustaría ser avisado por email cuando se resuelva la incidencia</label>
+   <input type="checkbox" id="email" name="email" checked="checked"/>
 </fieldset>
 
 <input type="submit" value="Entrar"/>
-<input type="submit" value="Limpiar"/>
-
+<input type="reset" value="Limpiar"/>
+</form>
 </body>
 </html>
