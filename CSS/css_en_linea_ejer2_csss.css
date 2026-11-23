@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: pink;
+}
+
+ p {
+        
+   text-align:center;
+   font-family:Verdana;
+   color:blue;
+
+ }
+ 
+ #rojo{
+    color:red;
+    
+ }
+ 
+ #dos,#cuatro{
+    background-color: silver;
+ }
+
+ #tres {
+    text-align:right;
+    font-size:20px;
+ }

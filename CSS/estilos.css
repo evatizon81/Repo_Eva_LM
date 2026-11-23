@@ -1,5 +1,14 @@
-<link rel="stylesheet" href= "../css/estilos.css">
 
-<li> {
+
+
+li#rojo{
+    color:red;
+}
+li#verde{
     color: green;
 }
+
+
+
+
+

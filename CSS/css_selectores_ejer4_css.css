@@ -1,0 +1,32 @@
+header,main
+u {
+
+    color: green;
+}
+.primero{
+
+
+    color:palevioletred;
+}
+
+.segundo,.tercero{
+
+    color:grey;
+}
+
+#azul{
+
+    color:blue;
+}
+
+#subrayado{
+
+    color: yellow;
+    background-color: black;
+
+}
+
+#final{
+
+    color:aquamarine;
+}
